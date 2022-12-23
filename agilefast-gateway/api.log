@@ -1,0 +1,3 @@
+2022-12-21 15:22:41.847  INFO 12676 --- [main] i.a.AgilefastGatewayApplicationTests     : Starting AgilefastGatewayApplicationTests using Java 1.8.0_181 on admin-PC with PID 12676 (started by admin in D:\project\work\货车配件物联网管理平台\agilefast-jlpt-service\agilefast-gateway)
+2022-12-21 15:22:41.852  INFO 12676 --- [main] i.a.AgilefastGatewayApplicationTests     : No active profile set, falling back to 1 default profile: "default"
+2022-12-21 15:22:44.675  INFO 12676 --- [main] i.a.AgilefastGatewayApplicationTests     : Started AgilefastGatewayApplicationTests in 3.475 seconds (JVM running for 5.008)

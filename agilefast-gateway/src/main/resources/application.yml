@@ -1,0 +1,36 @@
+# Tomcat
+server:
+  tomcat:
+    uri-encoding: UTF-8
+    max-threads: 1000
+    min-spare-threads: 30
+  port: 8085
+  servlet:
+    context-path: /hcpjbs
+web:
+  config:
+    #jlpt_url: "https://crjlgl.cn/jlptapi"
+    web_login_url: "/mainweb/#/login"
+    #jlpt_url: "http://10.3.183.80:8085/ogm/webapi/hcpjbs"
+    jlpt_url: "http://localhost:8084"
+    sso_login_url: "/agilefast-api/api/ssoLogin"
+    client_id: "3656F41A-B3E8-4535-8113-9A9D306DB43B"
+    client_secret: "447B23D0-47F7-48DF-B8AD-F71E54405693"
+    grant_type: "password"
+    username: ""
+    password: ""
+
+  whitelist:
+    - "/api/ssoLogin"
+    - "/api/getLoginUser"
+logging:
+  level: debug
+  level.io.agilefast: debug
+  file:
+    name: api.log
+    path: logs/
+spring:
+  servlet:
+    multipart:
+      max-file-size: 50MB
+      max-request-size: 50MB
